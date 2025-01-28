@@ -1,8 +1,29 @@
-# React + Vite
+What i work on this App:
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+1. React:
+State Management: Using useState to manage search queries and API responses.
+Effect Hook (useEffect): Fetching data when the component mounts or updates (DetailsPage).
+Props and PropTypes: Passing and validating props (DetailsPage).
 
-Currently, two official plugins are available:
+2. React Router (react-router-dom)
+Routing Setup: Using Router, Routes, and Route to manage navigation.
+Dynamic Routing: Using URL parameters (useParams) to fetch movie details.
+Programmatic Navigation: Using useNavigate to navigate between pages dynamically.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+3. API Integration (Fetching Data)
+Making API Requests: Using fetch() to retrieve movie data from the OMDb API.(I got my personal account for Pablo Cancino)
+Handling Responses: Parsing JSON responses and updating the UI dynamically.
+
+
+4. React Components & JSX
+Component Composition: Structuring the app into reusable components (SearchPage, DetailsPage).
+Conditional Rendering: Displaying loading messages and search results dynamically.
+Event Handling: Handling form submissions (handleSearch).
+
+5. CSS & Styling
+Basic Styling: Using an external App.css file to style the app.
+
+6. JavaScript & ES6+ Features
+Destructuring: Extracting values from objects (const { imdbID } = useParams()).
+Template Literals: Constructing API URLs dynamically.
+Arrow Functions: Using concise function expressions for event handlers.
